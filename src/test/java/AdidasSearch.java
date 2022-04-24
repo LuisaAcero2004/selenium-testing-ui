@@ -33,9 +33,9 @@ public class AdidasSearch {
 
     @Test
     public void searchAdidasShoes() throws InterruptedException {
-        homePage.searchProduct("shoes");
-        resultsPage.selectBrand("adidas");
-        Assert.assertTrue(resultsPage.readQtyResults() > 2000);
+        homePage.searchProduct("shoes"); //Search shoes
+        resultsPage.selectBrand("adidas"); //Select adidas brand
+        Assert.assertTrue(resultsPage.readQtyResults() > 2000); //Assertion -> results should be greater than 2000
 
     }
 

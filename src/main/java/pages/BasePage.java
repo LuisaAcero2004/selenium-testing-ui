@@ -5,7 +5,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Wait;
 import utilities.Browser;
 import utilities.BrowserFactory;
-
 import java.time.Duration;
 
 public class BasePage {
